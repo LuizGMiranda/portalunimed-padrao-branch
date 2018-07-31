@@ -19,7 +19,7 @@ Os serviços desenvolvidos são importantes para fortalecer a imagem positiva da
  - Intranet
  - Central da Marca
 
-**Equipe:**
+**Equipe:**  
 [Luiz Gustavo Miranda](https://github.com/LuizGMiranda/) (*Front-end*)  
 [Felipe Grah](https://github.com/felipegrah) (*Full-stack*)  
 Fernando Santos (*Back-end*)  
