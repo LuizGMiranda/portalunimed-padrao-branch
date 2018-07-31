@@ -16,20 +16,22 @@ Os serviços desenvolvidos são importantes para fortalecer a imagem positiva da
  - PCT
  - AGI - Ambiente de Gerenciamento Integrado
  - Guia Médico (versão web)
+ - Intranet
+ - Central da Marca
 
 **Equipe:**
-[Luiz Gustavo Miranda](https://github.com/LuizGMiranda/) (*Front-end*)
-[Felipe Grah](https://github.com/felipegrah) (*Full-stack*)
-Fernando Santos (*Back-end*)
-Domaris(*Back-end e ScrumMaster*)
-Vivian (*Tester*)
-Matheus (*Tester*)
-Thayse (*Full-stack*)
+[Luiz Gustavo Miranda](https://github.com/LuizGMiranda/) (*Front-end*)  
+[Felipe Grah](https://github.com/felipegrah) (*Full-stack*)  
+Fernando Santos (*Back-end*)  
+Domaris(*Back-end e ScrumMaster*)  
+Vivian (*Tester*)  
+Matheus (*Tester*)  
+Thayse (*Full-stack*)  
 
 ## Por que mudar?
-Mudamos nossa forma de utilização de ramos, pois estava ocorrendo diversos erros no processo de integração de ramos para liberação para demais areas.
-
+Mudamos nossa forma de utilização de ramos, pois estava ocorrendo diversos erros no processo de liberação das atividades para as demais areas.
+ 
 ## Como irá funcionar?
-Após o desenvolvedor pegar a atividade pai (estoria) deve criar um novo ramo a partir do ramo desenv, e desse ramo criar o ramo de sua atividade (back/front/web). Assim que finalizar sua atividade deve fazer o commit das alterações (~~[com padrão de commit](https://conventionalcommits.org/)~~) e tambem o *pull request* para o ramo da estoria. Feito isso a equipe de teste ira rodar o *pipeline* e realizar o teste no ambiente de testes, se reprovado, o time de desenvolvimento deve fazer as devidas correções, se aprovado a atividade passa para o próximo passo. Quando o analista pegar a atividade para fazer a homologação ~~(e o teste de integração)~~, caso encontre erros deve ser aberta uma atividade de bug fix, para o time de desenvolvimento fazer a correção com a **máxima urgencia**. Em seguida, caso aprovado, as alterações são salvas no ramo da master, e gerado uma tag. (~~[com versionamento semantico](https://semver.org/)~~).
+Após o desenvolvedor pegar a atividade pai (estoria) deve criar um novo ramo a partir da *desenv*, e apartir criar o ramo de sua atividade (*back/front/web*). Assim que finalizar a atividade deve fazer o commit das alterações (~~[com padrão de commit](https://conventionalcommits.org/)~~), tambem o *pull request* para o ramo da estoria e ao finalizar todas as atividades filhas deve ser feito o *pull request* para *desenv*. Feito isso a equipe de teste ira rodar o *pipeline* e realizar os testes, caso reprovado, o time de desenvolvimento deve fazer as devidas correções, se aprovado a atividade passa para o próximo passo. Quando o analista pegar a atividade para fazer a homologação ~~(e o teste de integração)~~, caso encontre erros deve ser aberta uma atividade de bug fix, para o time de desenvolvimento fazer a correção, feito a atividade, volta para a etapa de testes. Se aprovado, as alterações são salvas no ramo da master, e gerado uma tag. (~~[com versionamento semantico](https://semver.org/)~~).
 Podemos visualizar na imagem.
 ![Visão geral do projeto](https://github.com/LuizGMiranda/portalunimed-padrao-branch/blob/master/imagem-visao-geral.png)
