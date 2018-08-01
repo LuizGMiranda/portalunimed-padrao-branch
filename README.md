@@ -38,11 +38,12 @@ Após o desenvolvedor pegar a atividade pai (estoria) deve criar um novo ramo a 
 - Scrum Master: responsavel por fazer aceitar o *merge request*
   
   
-  
+
 **Equipe:**  
 Domaris Campos(*Back-end e ScrumMaster*)  
 Fernando Santos (*Back-end*)  
 Thayse (*Full-stack*) 
+Natália Bortolás (*Web*)  
 Felipe Silva (*Full-stack*)  
 Luiz Miranda (*Front-end*)  
 Vivian Nygard(*Tester*)  
